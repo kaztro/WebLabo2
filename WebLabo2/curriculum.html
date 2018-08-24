@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Curriculum</title>
+</head>
+<body>
+    <article>
+    <h1>Curriculum Vitae</h1>
+    <form>
+    <section>
+    <fieldset>
+        <legend>Personal Data</legend>
+        Dui: <input type="text" minlength="10" maxlength="10" pattern="[0-9]{8}[-]{1}[0-9]{1}" required> 
+        First Name: <input type="text"  required> 
+        Last Name: <input type="text" required> 
+        Gender: <input type="radio" name="Gender" required>M <input type="radio" name="Gender">F <br><br>
+        Contact Number: <input type="tel" minlength="9" maxlength="9" required> 
+        Birthdate: <input type="date" min="2000-01-01" max="2018-12-31" required> 
+        Civil Status <select> <option>Single</option> <option>Married</option> <option>Divorced</option> <option>FriendZone</option> required</select>
+        Image: <input type="file" required>
+    </fieldset>
+    </section>
+    <br><br>
+    <section>
+    <fieldset>
+        <legend>Work Experience</legend>
+        <textarea rows="10" cols="225">Experience.</textarea >
+    </fieldset>
+    </section>
+    <br><br>
+    <section>
+    <fieldset>
+        <legend>Academic Training</legend>
+        <textarea rows="10" cols="225">Academic Training</textarea >
+    </fieldset>
+    </section>
+    <br><br>
+    <section>
+    <fieldset>
+        <legend>Further Training</legend>
+        <section>
+        <fieldset>
+            <legend>Programing Lenguages</legend>
+            <input type="checkbox" name = "check[]"> Java
+            <input type="checkbox" name = "check[]"> C#
+            <input type="checkbox" name = "check[]"> Python
+            <input type="checkbox" name = "check[]"> Ruby 
+        </fieldset>
+        </section>
+        <br>
+        <section>
+        <fieldset>
+            <legend>Web Technologies</legend>
+            <input type="checkbox" name = "check[]"> HTML5
+            <input type="checkbox" name = "check[]"> CSS/CSS3
+            <input type="checkbox" name = "check[]"> materialize Css
+            <input type="checkbox" name = "check[]"> Javascript
+            <input type="checkbox" name = "check[]"> Node.js
+            <input type="checkbox" name = "check[]"> Spring MVC
+        </fieldset>
+        </section>
+    </fieldset>
+    </section>
+     <br><br>
+    <input type="submit" value="Send">
+    <input type="reset" value = "cancel">
+</form>
+</article>
+</body>
+</html>
